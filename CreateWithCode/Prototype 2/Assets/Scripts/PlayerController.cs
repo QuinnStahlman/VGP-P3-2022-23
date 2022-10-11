@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
        if( transform.position.x < -xRange) {
         transform.position = new Vector3 (-xRange, transform.position.y, transform.position.z);
        }
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
        }
        if (Input.GetKeyDown(KeyCode.Space))
        {//Launch projectile from player
+       Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
        }
        horizontalInput = Input.GetAxis("Horizontal"); 
        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
