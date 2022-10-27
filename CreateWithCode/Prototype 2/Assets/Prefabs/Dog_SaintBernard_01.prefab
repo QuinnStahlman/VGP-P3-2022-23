@@ -753,6 +753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2705729569646280028}
   - component: {fileID: 2705729569660133486}
+  - component: {fileID: 7767753464658555939}
   m_Layer: 0
   m_Name: SM_SaintBernard_01
   m_TagString: Untagged
@@ -873,6 +874,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000018626451, y: -0.02942187, z: 0.09284967}
     m_Extent: {x: 0.060743935, y: 0.10395722, z: 0.13604975}
   m_DirtyAABB: 0
+--- !u!114 &7767753464658555939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705729569646454328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802ecff94d6173e42a6b80ce3d9c4611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2705729569646455976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1444,8 @@ GameObject:
   - component: {fileID: 2705729569655933924}
   - component: {fileID: 2705729570110820161}
   - component: {fileID: 7864135832445201682}
+  - component: {fileID: 5602756595540691062}
+  - component: {fileID: -4972233592174359323}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -1533,6 +1548,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 470c06e9cdc75f14f8e74c836658ceaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5602756595540691062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705729569646465748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17312054, y: 0.2498934, z: 0.28641385}
+  m_Center: {x: 0.013969963, y: 0.093690775, z: 0.03179627}
+--- !u!114 &-4972233592174359323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705729569646465748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802ecff94d6173e42a6b80ce3d9c4611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2705729569646468796
