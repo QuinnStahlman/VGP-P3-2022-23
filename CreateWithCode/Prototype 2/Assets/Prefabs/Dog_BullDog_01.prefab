@@ -174,8 +174,8 @@ GameObject:
   - component: {fileID: 3533447026422983305}
   - component: {fileID: 3533447025512134508}
   - component: {fileID: -1110452851175960718}
+  - component: {fileID: -9066185792995088987}
   - component: {fileID: 3127925166900458711}
-  - component: {fileID: 5618840727659420822}
   m_Layer: 0
   m_Name: Dog_BullDog_01
   m_TagString: Untagged
@@ -280,6 +280,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 470c06e9cdc75f14f8e74c836658ceaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-9066185792995088987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3533447026413422645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b26a711aec89d41aac5ef724cf8f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &3127925166900458711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -293,18 +305,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12897752, y: 0.21290633, z: 0.26649514}
   m_Center: {x: 0.007912435, y: 0.10052441, z: 0.037693806}
---- !u!114 &5618840727659420822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3533447026413422645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 802ecff94d6173e42a6b80ce3d9c4611, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3533447026413423533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 3533447026413745197}
   - component: {fileID: 3533447026427177901}
   - component: {fileID: 8353115788377703130}
-  - component: {fileID: 1860205683231277284}
+  - component: {fileID: 8598303153881694697}
   m_Layer: 0
   m_Name: SM_BullDog_01
   m_TagString: Untagged
@@ -1636,7 +1636,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.139988, y: 0.20340241, z: 0.25350899}
   m_Center: {x: 0.0006235288, y: 0.10170117, z: 0.0021660146}
---- !u!114 &1860205683231277284
+--- !u!114 &8598303153881694697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3533447026413489139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 802ecff94d6173e42a6b80ce3d9c4611, type: 3}
+  m_Script: {fileID: 11500000, guid: 65b26a711aec89d41aac5ef724cf8f0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3533447026413489777
